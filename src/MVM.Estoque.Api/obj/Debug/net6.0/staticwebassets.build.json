@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CP8UH184lJs1C+Y4mP8L7u0Rtug2crXtD8sVuvimxkg=",
+  "Source": "MVM.Estoque.Api",
+  "BasePath": "_content/MVM.Estoque.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

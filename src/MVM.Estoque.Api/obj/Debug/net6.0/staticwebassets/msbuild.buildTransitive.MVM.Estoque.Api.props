@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/MVM.Estoque.Api.props" />
+</Project>

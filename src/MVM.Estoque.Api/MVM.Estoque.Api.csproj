@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.23">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Entities\" />
+    <None Remove="Entities\Common\" />
+    <None Remove="Controllers\Common\" />
+    <None Remove="Dtos\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Common\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Interfaces\Services\" />
+    <None Remove="Interfaces\Repositories\" />
+    <None Remove="Data\" />
+    <None Remove="Data\Repositories\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Enum\" />
+    <None Remove="Notifications\" />
+    <None Remove="Configuration\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\Common\" />
+    <Folder Include="Controllers\Common\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Common\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\Repositories\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Enum\" />
+    <Folder Include="Notifications\" />
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+</Project>
